@@ -1,0 +1,36 @@
+Illness,Model,Prompt Type,Accuracy UMLS,Accuracy Disease name,UMLS code matches disease guess
+Brain Hypoxia,ChatGPT,Patient,0.00%,0.00%,40.00%
+,,Symptoms,25.00%,25.00%,
+,MedChatGPT,Patient,0.00%,16.67%,30.00%
+,,Symptoms,0.00%,25.00%,
+,DeepSeek,Patient,0.00%,0.00%,0.00%
+,,Symptoms,0.00%,25.00%,
+Sunstroke,ChatGPT,Patient,0.00%,0.00%,10.00%
+,,Symptoms,0.00%,0.00%,
+,MedChatGPT,Patient,0.00%,0.00%,14.29%
+,,Symptoms,0.00%,0.00%,
+,DeepSeek,Patient,0.00%,0.00%,42.86%
+,,Symptoms,0.00%,0.00%,
+Heat Stroke,ChatGPT,Patient,0.00%,80.00%,7.14%
+,,Symptoms,25.00%,50.00%,
+,MedChatGPT,Patient,83.33%,83.33%,66.67%
+,,Symptoms,75.00%,75.00%,
+,DeepSeek,Patient,77.78%,77.78%,78.57%
+,,Symptoms,100.00%,100.00%,
+Malignant neoplasm of stomach,ChatGPT,Patient,NULL,"NULL",NULL
+,,Symptoms,NULL,"NULL",
+,MedChatGPT,Patient,14.29%,0.00%,45.45%
+,,Symptoms,0.00%,0.00%,
+,DeepSeek,Patient,14.29%,0.00%,45.45%
+,,Symptoms,0.00%,0.00%,
+Kidney Failure,ChatGPT,Patient,0.00%,0.00%,10.00%
+,,Symptoms,0.00%,0.00%,
+,MedChatGPT,Patient,0.00%,0.00%,10.00%
+,,Symptoms,0.00%,0.00%,
+,DeepSeek,Patient,66.67%,0.00%,0.00%
+,,Symptoms,0.00%,0.00%,
+,,,,,
+,Accuracy UMLS,Accuracy Disease name,UMLS code matches disease guess,,
+ChatGPT,6.25%,19.38%,16.79%,,
+MedChatGPT,17.26%,20.00%,33.28%,,
+DeepSeek,25.87%,20.28%,33.38%,,
